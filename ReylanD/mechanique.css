@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#c07070;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+    background-clip: initial;
+    color:bisque;
+
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    z-index: 200; 
+}
+.header__logo{
+    color: #dc1212;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -4px;
+}
+
